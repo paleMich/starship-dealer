@@ -1,10 +1,12 @@
-import { applyMiddleware, createStore, compose } from 'redux';
-import thunk from 'redux-thunk';
+import {applyMiddleware, createStore, compose} from "redux";
+import thunk from 'redux-thunk'
+
+import StarshipReducer from './StarshipReducer'
 
 const defaultStore = {
-  starships: [],
-  error: undefined,
-  loading: false,
+    starships: [],
+    error: null,
+    loading: false,
 }
 
-export default store = createStore(starShipReducef, defaultStore, compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ &&  window.__REDUX_DEVTOOL_EXTENSION__()));
+export const store = createStore(StarshipReducer, defaultStore, compose(applyMiddleware(thunk),window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()))

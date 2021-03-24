@@ -1,222 +1,231 @@
 {
   "starships": [
-  {
-  "id": 1,
-  "name": "CR90 corvette",
-  "model": "CR90 corvette",
-  "manufacturer": "Corellian Engineering Corporation",
-  "cost_in_credits": "3500000",
-  "length": "150",
-  "max_atmosphering_speed": "950",
-  "crew": "30-165",
-  "passengers": "600",
-  "cargo_capacity": "3000000",
-  "consumables": "1 year",
-  "hyperdrive_rating": "2.0",
-  "MGLT": "60",
-  "starship_class": "corvette",
-  "image": "https://i.pinimg.com/originals/c5/a3/d9/c5a3d9128458241aad10c2b14d0a4f54.jpg",
-  "pilots": [],
-  "films": [
-  "http://swapi.dev/api/films/1/",
-  "http://swapi.dev/api/films/3/",
-  "http://swapi.dev/api/films/6/"
-  ],
-  "created": "2014-12-10T14:20:33.369000Z",
-  "edited": "2014-12-20T21:23:49.867000Z",
-  "url": "http://swapi.dev/api/starships/2/"
-  },
-  {
-  "id": 2,
-  "name": "Star Destroyer",
-  "model": "Imperial I-class Star Destroyer",
-  "manufacturer": "Kuat Drive Yards",
-  "cost_in_credits": "150000000",
-  "length": "1,600",
-  "max_atmosphering_speed": "975",
-  "crew": "47,060",
-  "passengers": "n/a",
-  "cargo_capacity": "36000000",
-  "consumables": "2 years",
-  "hyperdrive_rating": "2.0",
-  "image": "https://i.etsystatic.com/8461382/r/il/395b99/1021787906/il_570xN.1021787906_hyhw.jpg",
-  "MGLT": "60",
-  "starship_class": "Star Destroyer",
-  "pilots": [],
-  "films": [
-  "http://swapi.dev/api/films/1/",
-  "http://swapi.dev/api/films/2/",
-  "http://swapi.dev/api/films/3/"
-  ],
-  "created": "2014-12-10T15:08:19.848000Z",
-  "edited": "2014-12-20T21:23:49.870000Z",
-  "url": "http://swapi.dev/api/starships/3/"
-  },
-  {
-  "id": 3,
-  "name": "Death Star",
-  "model": "DS-1 Orbital Battle Station",
-  "manufacturer": "Sienar Fleet Systems",
-  "cost_in_credits": "1000000000000",
-  "length": "120000",
-  "max_atmosphering_speed": "n/a",
-  "crew": "342,953",
-  "passengers": "843,342",
-  "cargo_capacity": "1000000000000",
-  "consumables": "3 years",
-  "hyperdrive_rating": "4.0",
-  "MGLT": "10",
-  "starship_class": "Deep Space Mobile Battlestation",
-  "pilots": [],
-  "image": "https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg?region=0%2C31%2C1600%2C800",
-  "films": [
-  "http://swapi.dev/api/films/1/"
-  ],
-  "created": "2014-12-10T16:36:50.509000Z",
-  "edited": "2014-12-20T21:26:24.783000Z",
-  "url": "http://swapi.dev/api/starships/9/"
-  },
-  {
-  "id": 4,
-  "name": "Millennium Falcon",
-  "model": "YT-1300 light freighter",
-  "manufacturer": "Corellian Engineering Corporation",
-  "cost_in_credits": "100000",
-  "length": "34.37",
-  "max_atmosphering_speed": "1050",
-  "crew": "4",
-  "passengers": "6",
-  "cargo_capacity": "100000",
-  "consumables": "2 months",
-  "hyperdrive_rating": "0.5",
-  "MGLT": "75",
-  "starship_class": "Light freighter",
-  "image": "https://images-na.ssl-images-amazon.com/images/I/71xmlfDPaXL._AC_SX522_.jpg",
-  "pilots": [
-  "http://swapi.dev/api/people/13/",
-  "http://swapi.dev/api/people/14/",
-  "http://swapi.dev/api/people/25/",
-  "http://swapi.dev/api/people/31/"
-  ],
-  "films": [
-  "http://swapi.dev/api/films/1/",
-  "http://swapi.dev/api/films/2/",
-  "http://swapi.dev/api/films/3/"
-  ],
-  "created": "2014-12-10T16:59:45.094000Z",
-  "edited": "2014-12-20T21:23:49.880000Z",
-  "url": "http://swapi.dev/api/starships/10/"
-  },
-  {
-  "id": 5,
-  "name": "Y-wing",
-  "model": "BTL Y-wing",
-  "manufacturer": "Koensayr Manufacturing",
-  "cost_in_credits": "134999",
-  "length": "14",
-  "max_atmosphering_speed": "1000km",
-  "crew": "2",
-  "passengers": "0",
-  "cargo_capacity": "110",
-  "consumables": "1 week",
-  "hyperdrive_rating": "1.0",
-  "MGLT": "80",
-  "starship_class": "assault starfighter",
-  "pilots": [],
-  "image": "https://lumiere-a.akamaihd.net/v1/images/Y-Wing-Fighter_0e78c9ae.jpeg?region=0%2C24%2C1536%2C768",
-  "films": [
-  "http://swapi.dev/api/films/1/",
-  "http://swapi.dev/api/films/2/",
-  "http://swapi.dev/api/films/3/"
-  ],
-  "created": "2014-12-12T11:00:39.817000Z",
-  "edited": "2014-12-20T21:23:49.883000Z",
-  "url": "http://swapi.dev/api/starships/11/"
-  },
-  {
-  "id": 6,
-  "name": "X-wing",
-  "model": "T-65 X-wing",
-  "manufacturer": "Incom Corporation",
-  "cost_in_credits": "149999",
-  "length": "12.5",
-  "max_atmosphering_speed": "1050",
-  "crew": "1",
-  "passengers": "0",
-  "cargo_capacity": "110",
-  "consumables": "1 week",
-  "hyperdrive_rating": "1.0",
-  "MGLT": "100",
-  "starship_class": "Starfighter",
-  "image": "https://www.sideshow.com/storage/product-images/903314/x-wing-starfighter_star-wars_square.jpg",
-  "pilots": [
-  "http://swapi.dev/api/people/1/",
-  "http://swapi.dev/api/people/9/",
-  "http://swapi.dev/api/people/18/",
-  "http://swapi.dev/api/people/19/"
-  ],
-  "films": [
-  "http://swapi.dev/api/films/1/",
-  "http://swapi.dev/api/films/2/",
-  "http://swapi.dev/api/films/3/"
-  ],
-  "created": "2014-12-12T11:19:05.340000Z",
-  "edited": "2014-12-20T21:23:49.886000Z",
-  "url": "http://swapi.dev/api/starships/12/"
-  },
-  {
-  "id": 7,
-  "name": "TIE Advanced x1",
-  "model": "Twin Ion Engine Advanced x1",
-  "manufacturer": "Sienar Fleet Systems",
-  "cost_in_credits": "unknown",
-  "length": "9.2",
-  "max_atmosphering_speed": "1200",
-  "crew": "1",
-  "passengers": "0",
-  "cargo_capacity": "150",
-  "consumables": "5 days",
-  "hyperdrive_rating": "1.0",
-  "MGLT": "105",
-  "starship_class": "Starfighter",
-  "pilots": [
-  "http://swapi.dev/api/people/4/"
-  ],
-  "image": "https://i.pinimg.com/originals/d6/1b/3d/d61b3da1a8a4c07809eba493eef7ff5a.jpg",
-  "films": [
-  "http://swapi.dev/api/films/1/"
-  ],
-  "created": "2014-12-12T11:21:32.991000Z",
-  "edited": "2014-12-20T21:23:49.889000Z",
-  "url": "http://swapi.dev/api/starships/13/"
-  },
-  {
-  "id": 8,
-  "name": "Executor",
-  "model": "Executor-class star dreadnought",
-  "manufacturer": "Kuat Drive Yards, Fondor Shipyards",
-  "cost_in_credits": "1143350000",
-  "length": "19000",
-  "max_atmosphering_speed": "n/a",
-  "crew": "279,144",
-  "passengers": "38000",
-  "cargo_capacity": "250000000",
-  "consumables": "6 years",
-  "hyperdrive_rating": "2.0",
-  "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b4b6af80-893e-4b73-aaeb-d0697534c0fb/dc4gp36-65afcc54-aecc-4706-97c1-a25f4b6fdf49.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjRiNmFmODAtODkzZS00YjczLWFhZWItZDA2OTc1MzRjMGZiXC9kYzRncDM2LTY1YWZjYzU0LWFlY2MtNDcwNi05N2MxLWEyNWY0YjZmZGY0OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ncU4zQJy0Rvb-zE6dyT_3cL7RMOMw77gZB7RcdibwMU",
-  "MGLT": "40",
-  "starship_class": "Star dreadnought",
-  "pilots": [],
-  "films": [
-  "http://swapi.dev/api/films/2/",
-  "http://swapi.dev/api/films/3/"
-  ],
-  "created": "2014-12-15T12:31:42.547000Z",
-  "edited": "2014-12-20T21:23:49.893000Z",
-  "url": "http://swapi.dev/api/starships/15/"
-  }
+    {
+      "id": 1,
+      "name": "CR90 corvette",
+      "model": "CR90 corvette",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "3500000",
+      "length": "150",
+      "max_atmosphering_speed": "950",
+      "crew": "30-165",
+      "passengers": "600",
+      "cargo_capacity": "3000000",
+      "consumables": "1 year",
+      "hyperdrive_rating": "2.0",
+      "MGLT": "60",
+      "starship_class": "corvette",
+      "image": "https://i.pinimg.com/originals/c5/a3/d9/c5a3d9128458241aad10c2b14d0a4f54.jpg",
+      "pilots": [],
+      "films": [
+        "http://swapi.dev/api/films/1/",
+        "http://swapi.dev/api/films/3/",
+        "http://swapi.dev/api/films/6/"
+      ],
+      "created": "2014-12-10T14:20:33.369000Z",
+      "edited": "2014-12-20T21:23:49.867000Z",
+      "url": "http://swapi.dev/api/starships/2/"
+    },
+    {
+      "id": 2,
+      "name": "Star Destroyer",
+      "model": "Imperial I-class Star Destroyer",
+      "manufacturer": "Kuat Drive Yards",
+      "cost_in_credits": "150000000",
+      "length": "1,600",
+      "max_atmosphering_speed": "975",
+      "crew": "47,060",
+      "passengers": "n/a",
+      "cargo_capacity": "36000000",
+      "consumables": "2 years",
+      "hyperdrive_rating": "2.0",
+      "image": "https://i.etsystatic.com/8461382/r/il/395b99/1021787906/il_570xN.1021787906_hyhw.jpg",
+      "MGLT": "60",
+      "starship_class": "Star Destroyer",
+      "pilots": [],
+      "films": [
+        "http://swapi.dev/api/films/1/",
+        "http://swapi.dev/api/films/2/",
+        "http://swapi.dev/api/films/3/"
+      ],
+      "created": "2014-12-10T15:08:19.848000Z",
+      "edited": "2014-12-20T21:23:49.870000Z",
+      "url": "http://swapi.dev/api/starships/3/"
+    },
+    {
+      "id": 3,
+      "name": "Death Star",
+      "model": "DS-1 Orbital Battle Station",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "1000000000000",
+      "length": "120000",
+      "max_atmosphering_speed": "n/a",
+      "crew": "342,953",
+      "passengers": "843,342",
+      "cargo_capacity": "1000000000000",
+      "consumables": "3 years",
+      "hyperdrive_rating": "4.0",
+      "MGLT": "10",
+      "starship_class": "Deep Space Mobile Battlestation",
+      "pilots": [],
+      "image": "https://lumiere-a.akamaihd.net/v1/images/Death-Star-I-copy_36ad2500.jpeg?region=0%2C31%2C1600%2C800",
+      "films": [
+        "http://swapi.dev/api/films/1/"
+      ],
+      "created": "2014-12-10T16:36:50.509000Z",
+      "edited": "2014-12-20T21:26:24.783000Z",
+      "url": "http://swapi.dev/api/starships/9/"
+    },
+    {
+      "id": 4,
+      "name": "Millennium Falcon",
+      "model": "YT-1300 light freighter",
+      "manufacturer": "Corellian Engineering Corporation",
+      "cost_in_credits": "100000",
+      "length": "34.37",
+      "max_atmosphering_speed": "1050",
+      "crew": "4",
+      "passengers": "6",
+      "cargo_capacity": "100000",
+      "consumables": "2 months",
+      "hyperdrive_rating": "0.5",
+      "MGLT": "75",
+      "starship_class": "Light freighter",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71xmlfDPaXL._AC_SX522_.jpg",
+      "pilots": [
+        "http://swapi.dev/api/people/13/",
+        "http://swapi.dev/api/people/14/",
+        "http://swapi.dev/api/people/25/",
+        "http://swapi.dev/api/people/31/"
+      ],
+      "films": [
+        "http://swapi.dev/api/films/1/",
+        "http://swapi.dev/api/films/2/",
+        "http://swapi.dev/api/films/3/"
+      ],
+      "created": "2014-12-10T16:59:45.094000Z",
+      "edited": "2014-12-20T21:23:49.880000Z",
+      "url": "http://swapi.dev/api/starships/10/"
+    },
+    {
+      "id": 5,
+      "name": "Y-wing",
+      "model": "BTL Y-wing",
+      "manufacturer": "Koensayr Manufacturing",
+      "cost_in_credits": "134999",
+      "length": "14",
+      "max_atmosphering_speed": "1000km",
+      "crew": "2",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "80",
+      "starship_class": "assault starfighter",
+      "pilots": [],
+      "image": "https://lumiere-a.akamaihd.net/v1/images/Y-Wing-Fighter_0e78c9ae.jpeg?region=0%2C24%2C1536%2C768",
+      "films": [
+        "http://swapi.dev/api/films/1/",
+        "http://swapi.dev/api/films/2/",
+        "http://swapi.dev/api/films/3/"
+      ],
+      "created": "2014-12-12T11:00:39.817000Z",
+      "edited": "2014-12-20T21:23:49.883000Z",
+      "url": "http://swapi.dev/api/starships/11/"
+    },
+    {
+      "id": 6,
+      "name": "X-wing",
+      "model": "T-65 X-wing",
+      "manufacturer": "Incom Corporation",
+      "cost_in_credits": "149999",
+      "length": "12.5",
+      "max_atmosphering_speed": "1050",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "110",
+      "consumables": "1 week",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "100",
+      "starship_class": "Starfighter",
+      "image": "https://www.sideshow.com/storage/product-images/903314/x-wing-starfighter_star-wars_square.jpg",
+      "pilots": [
+        "http://swapi.dev/api/people/1/",
+        "http://swapi.dev/api/people/9/",
+        "http://swapi.dev/api/people/18/",
+        "http://swapi.dev/api/people/19/"
+      ],
+      "films": [
+        "http://swapi.dev/api/films/1/",
+        "http://swapi.dev/api/films/2/",
+        "http://swapi.dev/api/films/3/"
+      ],
+      "created": "2014-12-12T11:19:05.340000Z",
+      "edited": "2014-12-20T21:23:49.886000Z",
+      "url": "http://swapi.dev/api/starships/12/"
+    },
+    {
+      "id": 7,
+      "name": "TIE Advanced x1",
+      "model": "Twin Ion Engine Advanced x1",
+      "manufacturer": "Sienar Fleet Systems",
+      "cost_in_credits": "unknown",
+      "length": "9.2",
+      "max_atmosphering_speed": "1200",
+      "crew": "1",
+      "passengers": "0",
+      "cargo_capacity": "150",
+      "consumables": "5 days",
+      "hyperdrive_rating": "1.0",
+      "MGLT": "105",
+      "starship_class": "Starfighter",
+      "pilots": [
+        "http://swapi.dev/api/people/4/"
+      ],
+      "image": "https://i.pinimg.com/originals/d6/1b/3d/d61b3da1a8a4c07809eba493eef7ff5a.jpg",
+      "films": [
+        "http://swapi.dev/api/films/1/"
+      ],
+      "created": "2014-12-12T11:21:32.991000Z",
+      "edited": "2014-12-20T21:23:49.889000Z",
+      "url": "http://swapi.dev/api/starships/13/"
+    },
+    {
+      "id": 8,
+      "name": "Executor",
+      "model": "Executor-class star dreadnought",
+      "manufacturer": "Kuat Drive Yards, Fondor Shipyards",
+      "cost_in_credits": "1143350000",
+      "length": "19000",
+      "max_atmosphering_speed": "n/a",
+      "crew": "279,144",
+      "passengers": "38000",
+      "cargo_capacity": "250000000",
+      "consumables": "6 years",
+      "hyperdrive_rating": "2.0",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b4b6af80-893e-4b73-aaeb-d0697534c0fb/dc4gp36-65afcc54-aecc-4706-97c1-a25f4b6fdf49.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjRiNmFmODAtODkzZS00YjczLWFhZWItZDA2OTc1MzRjMGZiXC9kYzRncDM2LTY1YWZjYzU0LWFlY2MtNDcwNi05N2MxLWEyNWY0YjZmZGY0OS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ncU4zQJy0Rvb-zE6dyT_3cL7RMOMw77gZB7RcdibwMU",
+      "MGLT": "40",
+      "starship_class": "Star dreadnought",
+      "pilots": [],
+      "films": [
+        "http://swapi.dev/api/films/2/",
+        "http://swapi.dev/api/films/3/"
+      ],
+      "created": "2014-12-15T12:31:42.547000Z",
+      "edited": "2014-12-20T21:23:49.893000Z",
+      "url": "http://swapi.dev/api/starships/15/"
+    },
+    {
+      "name": "Golden SS",
+      "manufacturer": "Q8",
+      "crew": "29",
+      "passengers": "318",
+      "cargo_capacity": "4734",
+      "image": "https://www.ticinolive.ch/files/2019/03/crew_dragon.jpg",
+      "id": 9
+    }
   ],
   "test": {
-  "prova": "prova"
+    "prova": "prova"
   }
-  }
+}

@@ -1,25 +1,22 @@
-import axios from 'axios';
-import { useEffect, useState } from 'react';
-import { Button } from 'react-bootstrap';
+import axios from 'axios'
+import { useContext, useEffect, useState } from 'react'
+import { Button } from 'react-bootstrap'
 import './App.css';
 import Card from "./Card";
 import ShipForm from "./ShipForm";
-axios.defaults.headers.post['Content-Type'] = 'application/json';
+import { useDispatch, useSelector } from "react-redux";
+import { addShip, fetchAllShips } from "./store/actions";
+axios.defaults.headers.post['Content-Type'] = 'application/json'
 
 
 function App() {
-  const [starships, setStarships] = useState([])
   const [showFormModal, setShowFormModal] = useState(false)
   const [newStarship, setNewStarship] = useState({})
-
-  const getAllStarShips = async () => {
-    const { data: starships } = await axios.get('http://localhost:3000/starships')
-    setStarships(starships)
-  }
+  const dispatch = useDispatch()
+  const starships = useSelector(state => state.starships)
 
   useEffect(() => {
-
-    getAllStarShips()
+    dispatch(fetchAllShips())
   }, [])
 
   const checkForm = () => newStarship.name && newStarship.manufacturer && newStarship.image && newStarship.crew >= 0 && newStarship.passengers >= 0 && newStarship.cargo_capacity >= 0
@@ -36,24 +33,17 @@ function App() {
   const addNewStarShip = async e => {
     e.preventDefault()
     if (checkForm()) {
-      await axios.post('http://localhost:3000/starships', newStarship)
-      await getAllStarShips()
+      dispatch(addShip(newStarship))
     } else {
       throw new Error('Form not Valid')
     }
   }
 
-
   return (
     <div className={"App"}>
-      <div className={"PostsContainer"}>
-        {starships.map(starship => (
-          <Card
-            fetchAll={getAllStarShips}
-            starship={starship}
-            key={starship.id}
-          />
-        ))}
+      <div className={"PostsContainer"}>{starships.map(starship => (
+        <Card starship={starship} key={starship.id}
+        />))}
       </div>
       <ShipForm
         starship={newStarship}
